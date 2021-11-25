@@ -7,9 +7,11 @@ from OtherWindow import Ui_OtherWindow
 
 
 class Ui_MainWindow(object):
-    #
-    # STYLES
-    #
+    
+  #             #
+### STYLESHEETS ###
+  #             #
+    
     styleLineEditOk = ("QLineEdit {\n"
                        "    border: 2px solid rgb(45, 45, 45);\n"
                        "    border-radius: 5px;\n"
@@ -42,11 +44,15 @@ class Ui_MainWindow(object):
 
     stylePopupError = ("background-color: rgb(255, 85, 127); border-radius: 5px;")
     stylePopupOk = ("background-color: rgb(0, 255, 123); border-radius: 5px;")
-    
+  
+  #             #
+### STYLESHEETS ###
+  #             #
 
-    #           #
-  ### FUNCTIONS ###
-    #           #
+    
+  #           #
+### FUNCTIONS ###
+  #           #
 
     def createWindowNew(self):
         self.window = QtWidgets.QMainWindow()
